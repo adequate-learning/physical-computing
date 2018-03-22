@@ -1,5 +1,7 @@
+#!/usr/bin/env python
+
 import RPi.GPIO as GPIO
-from servo import trigger_servo 
+from servo import trigger_servo
 
 try:
   servoPIN = 26
